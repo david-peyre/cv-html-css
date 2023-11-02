@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+
+
+body {
+    background-image: url(./images/motherboard_2-wallpaper-2560x1600.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(2.5px);
+    text-align: center;
+}
+
+header{
+    background-color: rgba(10, 16, 53, 0.507);
+}
+
+main {
+    width: 80%; /* Réduisez la largeur de la boîte principale à 80% */
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: rgba(10, 16, 53, 0.507);
+    border-radius: 40px;
+    margin: 40px 0; /* Marge entre les boîtes */
+    padding: 15px;
+    width: 100%; /* Pleine largeur du conteneur principal */
+    box-shadow: 0px 0px 20px 1px rgba(56, 56, 121, 0.904);
+    border: 2px solid rgba(255, 255, 255, 0.658);
+}
+
+.box1 {
+    background-color: rgba(10, 16, 53, 0.507);
+    border-radius: 100px;
+    margin: 40px auto; /* Marge entre les boîtes */
+    padding: 20px;
+    width: 50%; /* Pleine largeur du conteneur principal */
+    box-shadow: 0px 0px 20px 1px rgba(56, 56, 121, 0.904);
+    border: 2px solid rgba(255, 255, 255, 0.658);
+}
+
+.box2 {
+    background-color: rgba(10, 16, 53, 0.507);
+    border-radius: 1000px;
+    margin: auto auto; /* Marge entre les boîtes */
+    padding: 20px;
+    width: 30%; /* Pleine largeur du conteneur principal */
+    box-shadow: 0px 0px 20px 1px rgba(56, 56, 121, 0.904);
+    border: 2px solid rgba(255, 255, 255, 0.658);
+}
+
+h1 {
+    letter-spacing: 5.5px;
+    font-size: 3rem;
+    text-shadow: 4px -1px 6px #000000f5;
+    color: rgb(146, 48, 48);
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.658);
+    border-top: 5px solid rgba(255, 255, 255, 0.658);
+}
+
+h2 {
+    letter-spacing: 5.5px;
+    font-size: 2rem;
+    text-shadow: 4px -1px 6px #000000f5;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(146, 48, 48);
+}
+
+p {
+    color: rgb(190, 209, 218);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
